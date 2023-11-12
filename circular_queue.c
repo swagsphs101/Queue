@@ -62,7 +62,7 @@ int main(){
         {
             case 1: 
             {
-			        int val;
+		    int val;
                     printf("Enter a value to enqueue:");
                     scanf("%d",&val);
                     enqueue(q,val);
@@ -71,22 +71,22 @@ int main(){
             }
             case 2: 
             {
-			        dequeue(q);
-			        printf("Successfully dequeued\n");
+		     dequeue(q);
+		     printf("Successfully dequeued\n");
                     break;
             }
 
             case 3: 
             {
-			        display(q);
-                    break;
+		     display(q);
+                      break;
             }
 
             case 4:
             {
-			        printf("Exiting the program");
-                    exit(0);
-                    break;
+		     printf("Exiting the program");
+                     exit(0);
+                     break;
             }
 
             default:
