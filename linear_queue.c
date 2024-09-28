@@ -16,7 +16,7 @@ int isEmpty(struct Queue*q){
 
 int isFull(struct Queue*q){
     if(q->rear==q->size-1) return 1;
-    else return 0;
+    else return 0; 
 }
 
 void enqueue(struct Queue*q,int val){
