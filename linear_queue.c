@@ -37,7 +37,14 @@ void dequeue(struct Queue* q){
         printf("Queue underflow\n");
     }
     else{
-        q->front++;
+        if(q->front==q->rear)
+        {
+            q->front=q->rear=-1;
+        }
+        else
+        {
+            q->front++;
+        }
     }
 }
 
